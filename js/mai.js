@@ -22,7 +22,7 @@ function imc() {
             document.body.appendChild(imcPamtalla);
         } else if (resultado >= 18.5 && resultado <= 24.9) {
             let imcPamtalla = document.createElement('p');
-            imcPamtalla.innerHTML = `<h1>Tu IMC es : ${resultado.toFixed(2)} Tu peso es el adecuado</h1>`
+            imcPamtalla.innerHTML = `<h1>Tu IMC es : ${resultado.toFixed(2)}  Peso  adecuado</h1>`
             document.body.appendChild(imcPamtalla);
 
         } else if (resultado >= 25 && resultado <= 29.9) {

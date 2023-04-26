@@ -93,3 +93,21 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+nav{
+    padding-bottom: 35px;
+}
+.navbar{
+    border: 2px dashed #000000;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: block;
+    }
+
+.a{
+    font-size: 2rem;
+    text-align: center;
+    font-family: fantasy;
+}
+img{
+    width: 70px;
+}
